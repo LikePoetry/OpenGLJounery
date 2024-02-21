@@ -24,3 +24,4 @@ workspace "Kangs"
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 include "Sample001"
+include "Sample002"
