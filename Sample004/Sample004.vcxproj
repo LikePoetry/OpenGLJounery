@@ -7,10 +7,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1A070F0F-8671-C385-CFAF-742B3B59A1DA}</ProjectGuid>
+    <ProjectGuid>{1B070F0F-8771-C385-D0AF-742B3C59A1DA}</ProjectGuid>
     <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Sample003</RootNamespace>
+    <RootNamespace>Sample004</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -29,9 +29,9 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\bin\Debug-windows-x86_64\Sample003\</OutDir>
-    <IntDir>..\bin-int\Debug-windows-x86_64\Sample003\</IntDir>
-    <TargetName>Sample003</TargetName>
+    <OutDir>..\bin\Debug-windows-x86_64\Sample004\</OutDir>
+    <IntDir>..\bin-int\Debug-windows-x86_64\Sample004\</IntDir>
+    <TargetName>Sample004</TargetName>
     <TargetExt>.exe</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

@@ -26,4 +26,8 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 include "Sample001"
 include "Sample002"
 include "Sample003"
+include "Sample004"
+include "Sample005"
+
+
 
