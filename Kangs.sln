@@ -5,6 +5,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample001", "Sample001\Samp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample002", "Sample002\Sample002.vcxproj", "{19070F0F-8571-C385-CEAF-742B3A59A1DA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sample003", "Sample003\Sample003.vcxproj", "{1A070F0F-8671-C385-CFAF-742B3B59A1DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -14,6 +16,8 @@ Global
 		{18070F0F-8471-C385-CDAF-742B3959A1DA}.Debug|x64.Build.0 = Debug|x64
 		{19070F0F-8571-C385-CEAF-742B3A59A1DA}.Debug|x64.ActiveCfg = Debug|x64
 		{19070F0F-8571-C385-CEAF-742B3A59A1DA}.Debug|x64.Build.0 = Debug|x64
+		{1A070F0F-8671-C385-CFAF-742B3B59A1DA}.Debug|x64.ActiveCfg = Debug|x64
+		{1A070F0F-8671-C385-CFAF-742B3B59A1DA}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
