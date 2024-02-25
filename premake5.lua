@@ -23,7 +23,7 @@ workspace "Kangs"
 		"Debug"
 	}
 
-	
+
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
@@ -34,3 +34,4 @@ include "Sample004"
 include "Sample005"
 include "Sample006"
 include "Sample007"
+include "Sample008"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\external">
+      <UniqueIdentifier>{D31B1160-3FD1-8955-C8C5-832C347A8059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\external\glad">
+      <UniqueIdentifier>{BA4AB7FD-A643-D64F-CF75-BBD4BBCDB55B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\external\glad\src">
+      <UniqueIdentifier>{D1D58D49-BD64-1713-6683-2B0E52F127B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\external\stb">
+      <UniqueIdentifier>{AB8B2CF8-1717-9ABC-2028-1DB18C32F6BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\shader">
+      <UniqueIdentifier>{075D108A-73C7-C400-BC05-76A628AFA255}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\external\stb\stb_image.h">
+      <Filter>..\external\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shader\shader.h">
+      <Filter>..\shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\external\glad\src\glad.c">
+      <Filter>..\external\glad\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shader\shader.cpp">
+      <Filter>..\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
