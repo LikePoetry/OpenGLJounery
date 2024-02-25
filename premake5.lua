@@ -2,6 +2,8 @@ IncludeDir = {}
 IncludeDir["GLFW"] = "%{wks.location}/external/GLFW/include"
 IncludeDir["Glad"] = "%{wks.location}/external/Glad/include"
 IncludeDir["stb"] = "%{wks.location}/external/stb"
+IncludeDir["glm"] = "%{wks.location}/external/glm"
+
 
 
 LibraryDir = {}
@@ -31,3 +33,4 @@ include "Sample003"
 include "Sample004"
 include "Sample005"
 include "Sample006"
+include "Sample007"
